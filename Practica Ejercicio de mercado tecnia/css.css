@@ -1,7 +1,7 @@
 body
 {
-	background: #123439;
-	/*background: grey;*/
+	/*background: #123439;*/
+	background: grey;
 }
 header figure
 {
@@ -37,7 +37,7 @@ nav ul li
 	width: 18%;
 	border-left: black solid 1px;
 	border-right: black solid 1px;
-	color: #fff;
+	color: red;
 }
 nav ul li:hover
 {
@@ -49,7 +49,7 @@ nav ul li:hover
 header p
 {
 	text-align: center;
-	color: #fff;
+	color: red;
 }
 section.uno
 {
