@@ -1,0 +1,114 @@
+body
+{
+	background: #123439;
+	/*background: grey;*/
+}
+header figure
+{
+	width: 20%;
+	display: inline-block;
+}
+header figure img
+{
+	width: 100%;
+}
+h2
+{
+	width: 7%;
+	display: inline-block;
+	/*border: red solid 3px;*/
+	margin-left: 61%;
+	vertical-align: top;
+	margin-top:6%;
+	border-bottom: white solid 3px;
+	color:white;
+}
+nav
+{
+	text-align: center;
+}
+nav ul
+{
+
+}
+nav ul li
+{
+	display: inline-block;
+	width: 18%;
+	border-left: black solid 1px;
+	border-right: black solid 1px;
+	color: #fff;
+}
+nav ul li:hover
+{
+	background: #fff;
+	color:#000;
+	border-left: red solid 1px;
+	font-weight: bold;
+}
+header p
+{
+	text-align: center;
+	color: #fff;
+}
+section.uno
+{
+	margin-top: 3%;
+}
+section.uno figure
+{
+	width: 27%;
+	display: inline-block;
+
+}
+section.uno figure img
+{
+	width: 100%
+}
+section.dos
+{
+	text-align: center;
+	margin: 3% 0 3% 0;
+}
+section.dos article.uno
+{
+	width: 50%;
+	display: inline-block;
+	/*border: black solid 1px;*/
+}
+section.dos article.uno figure
+{
+	width: 23%;
+	display: inline-block;
+}
+section.dos article.uno figure img
+{
+	width: 100%;
+}
+section.dos article.uno p
+{
+	width: 60%;
+	display: inline-block;
+	text-align: justify !important;
+}
+section.dos article.dos
+{
+	width: 30%;
+	display: inline-block;
+	
+}
+section.dos article.dos figure
+{
+	width: 69%;
+}
+section.dos article.dos figure img
+{
+ 	width: 100%;
+}
+footer 
+{
+	background: url(paisaje2.jpg)no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 179px;
+}

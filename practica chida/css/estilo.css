@@ -1,0 +1,320 @@
+@font-face { /*etiqueta de prerendereo para que carge al principio*/
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?f45noq');
+	src:url('../fonts/icomoon.eot?#iefixf45noq') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?f45noq') format('woff'),
+		url('../fonts/icomoon.ttf?f45noq') format('truetype'),
+		url('../fonts/icomoon.svg?f45noq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: gray;
+	font-size: 16px;
+}
+header
+{
+	background: url(../img/paisaje2.jpg)no-repeat; /*los 2 puntitos hace que regrese una carpeta anterior*/
+	background-size: 100% 100%;
+	color:#fff;
+	text-align: center;
+	height: 550px;
+}
+header h1
+{
+	width: 15%;
+	display: inline-block;
+	padding: 1px;
+}
+header nav
+{
+	width: 50%;
+	display: inline-block;
+	margin-left: 34%;
+}
+header nav li:hover
+{
+	background: #efefef;
+	border-radius: 1%;
+	color:black;
+}
+li
+{
+	border-right: 1px solid black;
+	padding-right: 17px;
+	display: inline-block;
+	margin: 0 2%;
+	font-weight: bold; /*hace las letras mayusculas*/
+	font-style: italic; /*hace la letra curiva */
+	text-transform: uppercase;
+}
+header figure
+{
+	width: 6%;
+	margin-left: 620px;
+}
+header figure img
+{
+	width: 100%;
+	transform: rotate(45deg);
+}
+header p
+{
+	margin: 0;
+}
+
+h2.wwd
+{
+	text-align: center;
+	background: #234545;
+	color: white;
+	padding: 121px;
+	margin: 0;
+
+}
+
+div.bolita
+{
+	width: 150px;
+	background: red;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	border: 14px solid #fff;
+	margin-left: 69px;
+}
+p.a:after
+{
+	font-family: "icomoon";
+	content: "\e900";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+}
+p.b:after
+{
+	font-family: "icomoon";
+	content: "\e901";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+}
+p.c:after
+{
+	font-family: "icomoon";
+	content: "\e902";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+}
+p.d:after
+{
+	font-family: "icomoon";
+	content: "\e903";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+ 	text-align: center;
+}
+
+section.bolita
+{
+	background: transparent;
+	text-align: center;
+	/*border: 3px solid red;*/
+	/*position: absolute;
+	top: 722px*/
+
+}
+section.bolita article
+{
+	width: 22%;
+	display: inline-block;
+	margin: 1%;
+	vertical-align: top;
+	text-align: center;
+	/*border: 3px solid red;*/
+
+}
+section.bolita article button
+{
+
+	border: none;
+	background:orange;
+	padding: .5em;
+	color: white;
+	width:70px;
+}
+article.seis
+{
+	width: 80% !important;
+	margin: 0 10% !important;
+}
+article.seis figure
+{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 3%;
+}
+article.seis figure img
+{
+	border: 14px solid white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+section.team
+{
+	text-align: center;
+}
+section.team h2
+{
+	background: #234545;
+	color: white;
+	padding: 121px;
+}
+
+section.team article
+{
+	width: 225px;
+	height: 397px;
+	background: #fff;
+	display: inline-block;
+	border: red solid 3px;
+	border-radius: 40%;
+}
+section.team article figure
+{
+	width: 100%;
+	margin: 0;
+
+}
+section.team article figure img
+{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	
+}
+/*div.t 
+{
+	width: 125px;
+	height: 125px;
+	background: #fff;
+	border-radius: 50% 50% 0 0;
+	margin-left: 40px;
+}*/
+section.blog
+{
+	text-align: center;
+}
+section.blog article
+{
+	width: 30%;
+	display: inline-block;
+
+}
+section.blog article figure
+{
+	width: 100%;
+	margin-left: 20px;
+}
+section.blog article figure img
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+section.social div.h
+{
+	width: 150px;
+	background: red;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	border: 14px solid #fff;
+	margin-left: 69px;
+	display: inline-block;
+
+}
+
+section.social div.h p.a:after
+{
+    font-family: "icomoon";
+	content: "\e902";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+ }
+section.social div.h p.b:after
+{
+    font-family: "icomoon";
+	content: "\e902";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+ }
+section.social div.h p.c:after
+{
+    font-family: "icomoon";
+	content: "\e902";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+ }
+section.social div.h p.d:after
+{
+    font-family: "icomoon";
+	content: "\e902";
+	font-size: 4em;
+	color: white;
+ 	position: absolute;	
+ 	top: 36px;
+ 	left: 40px;
+ 	
+ }
+ section.social
+ {
+ 	text-align: center;
+ }
+
+
+ section.formulario
+ {
+ 	text-align: center;
+ 	margin-bottom: 10px;
+ }
+ section.formulario form input
+ {
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ footer figure
+ {
+	width: 100%;
+	margin: 0;
+	
+ }
+ footer figure img
+ {
+	width: 100%;
+	height:400px;
+ }
